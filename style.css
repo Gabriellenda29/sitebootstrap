@@ -1,0 +1,23 @@
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-position: center;/*centraliza horizontal e vertical  */
+}
+
+.card-img-top{
+    height: 80%;
+    border-radius: 360px;
+    border: 2px solid black;
+}
+
+.col img{
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.col img:hover{
+    transform: scale(1.1);
+}
